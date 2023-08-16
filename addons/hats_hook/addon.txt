@@ -1,0 +1,9 @@
+"AddonInfo"
+{
+	"name"        "Realistic Hook"
+	"version"     "1.0.7"
+	"author_name" "my_hat_stinks"
+	"author_url"  ""
+	"info"        "For grappling stuff"
+	"override"    "0"
+}

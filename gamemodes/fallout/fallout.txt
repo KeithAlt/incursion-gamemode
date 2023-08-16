@@ -1,0 +1,8 @@
+"fallout"
+{
+	"base"		"nutscript"
+	"title"		"Fallout Incursion"
+	"author"	"Vex"
+	"menusystem" "1"
+	"category" "rp"
+}

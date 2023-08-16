@@ -1,0 +1,124 @@
+"vehicle"
+{
+	"wheelsperaxle"	"2"
+	"body"
+	{
+		"countertorquefactor"	"0"
+		"massCenterOverride"	"0 0 -20"
+		"massoverride"			"15000"
+		"addgravity"			"5"
+		"maxAngularVelocity"	"100"
+	}
+	"engine"
+	{
+		"horsepower"			"350"
+		"maxrpm"				"420"
+		"maxspeed"				"8"
+		"maxReverseSpeed"		"4"
+		"autobrakeSpeedGain"	"1.1"
+		"autobrakeSpeedFactor"	"3.0"
+		"autotransmission"		"1"
+		"axleratio"				"4.56"
+		"gear"					"3.2"
+		"gear"					"2.4"
+		"gear"					"1.5"
+		"gear"					"1.0"
+		"gear"					"0.84"
+		"shiftuprpm"			"3800"
+		"shiftdownrpm"			"1600"
+	}
+	"steering"
+	{
+		"degreesSlow"				"60"
+		"degreesFast"				"45"
+		"degreesBoost"				"45"
+		"steeringExponent"			"1.4"
+		"slowcarspeed"				"5"
+		"fastcarspeed"				"25"
+		"slowSteeringRate"			"4.0"
+		"steeringRestRateSlow"		"3.0"
+		"fastSteeringRate"			"2.0"
+		"steeringRestRateFast"		"1.5"
+
+		"turnThrottleReduceSlow" 			"0.01"
+		"turnThrottleReduceFast" 			"1.0"
+		"brakeSteeringRateFactor"			"2"
+		"throttleSteeringRestRateFactor"	"2"
+		"boostSteeringRestRateFactor"		"1.7"
+		"boostSteeringRateFactor"			"1.7"
+
+		"powerSlideAccel"	"250"
+
+		"skidallowed"	"0"
+		"dustcloud"		"0"
+
+	}
+
+	"axle"
+	{
+		"wheel"
+		{
+			"radius"	"30"
+			"mass"		"1550"
+			"damping"	"0"
+			"rotdamping"	"0.3"
+			"material"	"jeeptire"
+			"skidmaterial"	"slidingrubbertire"
+			"brakematerial" "brakingrubbertire"
+		}
+		"suspension"
+		{
+			"springConstant"		"70"
+			"springDamping"			"11"
+			"stabilizerConstant"		"17"
+			"springDampingCompression"	"10"
+			"maxBodyForce"			"15"
+		}
+
+		"torquefactor"	"0.2"
+		"brakefactor"	"0.8"
+	}
+
+	"axle"
+	{
+		"wheel"
+		{
+			"radius"	"24"
+			"mass"		"1550"
+			"damping"	"0"
+			"rotdamping"	"0.3"
+			"material"	"jeeptire"
+			"skidmaterial"	"slidingrubbertire"
+			"brakematerial" "brakingrubbertire"
+		}
+		"suspension"
+		{
+			"springConstant"		"70"
+			"springDamping"			"11"
+			"stabilizerConstant"		"17"
+			"springDampingCompression"	"10"
+			"maxBodyForce"			"15"
+		}
+
+		"torquefactor"	"0.2"
+		"brakefactor"	"0.8"
+	}
+}
+
+"vehicle_sounds"
+{
+	"gear"
+	{
+		"max_speed"				"0.25"
+		"speed_approach_factor" "0.25"
+		"engine_loop"			"PrisonerPod.NoSound"
+		"foot_off"				"PrisonerPod.NoSound"
+		"foot_off_slow"			"PrisonerPod.NoSound"
+	}
+
+	"engine_start"		"PrisonerPod.NoSound"
+	"engine_stop"		"PrisonerPod.NoSound"
+	"engine_idle"		"PrisonerPod.NoSound"
+	"engine2_start"		"PrisonerPod.NoSound"
+	"engine2_stop"		"PrisonerPod.NoSound"
+}

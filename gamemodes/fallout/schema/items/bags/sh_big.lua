@@ -1,0 +1,10 @@
+ITEM.name = "Large Backpack"
+ITEM.desc = "A large backpack."
+ITEM.width = 2
+ITEM.height = 4
+ITEM.invWidth = 6
+ITEM.invHeight = 6
+ITEM.category = "Storage"
+ITEM.flag = "v"
+ITEM.model = "models/fallout 3/backpack_6.mdl"
+ITEM.uniqueID = "stor_briefcaselarge"

@@ -1,0 +1,8 @@
+"AddonInfo"
+{
+	"name"		"VCMod Main"
+	"version"	"Auto Update edition"
+	"author_name"	"freemmaann"
+	"author_email"	"freemmaann@gmail.com"
+	"info"		"https://www.gmodstore.com/scripts/view/21"
+}

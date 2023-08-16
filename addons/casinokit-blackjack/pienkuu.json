@@ -1,0 +1,13 @@
+{
+"sources": "lua/",
+"ignore": [
+"logo.*",
+"desc.md"
+],
+"dependencies": [
+"casinokit"
+],
+"minify": [
+"lua/**"
+]
+}
