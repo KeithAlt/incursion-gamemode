@@ -1,8 +1,6 @@
 # ☢️ Claymore Gaming's Incursion Gamemode ☢️
-___
 ## Pre-requisite information:
 **This project isn't maintained and is in archive mode.** This means that we (the original developers) will not provide any support on gamemode setup, issues, bugs, whatever it maybe - don't contact us about it. With that being said, we'll provide you some helpful instructions on possibly setting this up for yourself but understand _**this gamemode will not work out of the box.**_ We put in deliberate effort to make sure this gamemode couldn't be ran where we didn't want it to be. However, it has been setup before multiple times in-fact.
-___
 ## Setup:
 1. Insert gamemodes files into your Gmod server's directory of the same name
 2. Insert addons files into your Gmod server's directory of the same name
