@@ -11,3 +11,7 @@ I've replaced remote database connection credentials with "remote_db_..." placeh
 5. Launch the gamemode/server, scan for startup errors, and address them as they appear (because there will definitely be some)
 
 This will require ample effort to get working. There are probably setup requirement related issues you'll encounter that aren't being mentioned here. It will be up to you to figure them out as you encounter them.
+
+# 🚨 Important Callouts/Warnings 🚨
+- This codebase contains "backdoors" or code that could potentially enable users to execute commands and behaivor that you may not wish to allow. It's your responsibility to remove any such code.
+- This codebase contains software that is licensed indepdently. It's your responsibility to remove any such software and or implement said mentioned licenses.
