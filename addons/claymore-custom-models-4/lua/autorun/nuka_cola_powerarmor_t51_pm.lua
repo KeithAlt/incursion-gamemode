@@ -1,0 +1,2 @@
+player_manager.AddValidModel("Nuka Cola T-51 Power Armor", "models/kuma96/powerarmor_t51/resized/nkpowerarmor_t51_pm.mdl")
+player_manager.AddValidHands("Nuka Cola T-51 Power Armor", "models/weapons/c_arms_combine.mdl", 0, "00000000")

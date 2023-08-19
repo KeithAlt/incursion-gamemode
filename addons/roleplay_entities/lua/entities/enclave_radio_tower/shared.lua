@@ -1,0 +1,9 @@
+ENT.Base = "base_anim"
+ENT.Type = "anim"
+ENT.Category 			= "Fallout Radio"
+ENT.PrintName			= "Enclave Radio Tower"
+ENT.Author			= "Claymore Gaming"
+ENT.Contact			= ""
+ENT.Purpose			= "Plays random Enclave enspired music"
+ENT.Instructions		= "Press E to turn it on and off"
+ENT.AdminSpawnable		= true

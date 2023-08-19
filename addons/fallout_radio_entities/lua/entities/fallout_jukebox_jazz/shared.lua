@@ -1,0 +1,10 @@
+ENT.Base = "base_anim"
+ENT.Type = "anim"
+ENT.Category 			= "Fallout Radio"
+ENT.PrintName			= "Fallout Jukebox [Jazz]"
+ENT.Author			= "Claymore Gaming"
+ENT.Contact			= ""
+ENT.Purpose			= "Plays funky jazz"
+ENT.Instructions		= "Press E to turn it on and off"
+ENT.Spawnable			= true
+ENT.AdminSpawnable		= true

@@ -1,0 +1,1 @@
+local a=CasinoKit.class("CrapsState","State")

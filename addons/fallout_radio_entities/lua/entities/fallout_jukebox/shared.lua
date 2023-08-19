@@ -1,0 +1,10 @@
+ENT.Base = "base_anim"
+ENT.Type = "anim"
+ENT.Category 			= "Fallout Radio"
+ENT.PrintName			= "Fallout Jukebox"
+ENT.Author			= "dickmosi"
+ENT.Contact			= ""
+ENT.Purpose			= "Plays random songs from the Fallout Franchise"
+ENT.Instructions		= "Press E to turn it on and off"
+ENT.Spawnable			= true
+ENT.AdminSpawnable		= true

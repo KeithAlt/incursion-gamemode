@@ -1,0 +1,1 @@
+table.insert(APA.Settings.L.White, "casinokit_")

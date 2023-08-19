@@ -1,0 +1,10 @@
+ITEM.name = "Small Backpack"
+ITEM.desc = "A small backpack."
+ITEM.width = 2
+ITEM.height = 2
+ITEM.invWidth = 3
+ITEM.invHeight = 3
+ITEM.category = "Storage"
+ITEM.flag = "v"
+ITEM.model = "models/fallout 3/backpack_1.mdl"
+ITEM.uniqueID = "stor_briefcase"

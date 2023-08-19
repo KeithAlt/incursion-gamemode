@@ -1,0 +1,2 @@
+list.Set( "PlayerOptionsModel", "Wasteland Samurai Armor", "models/player/keitho/wstlndsamurai.mdl" )
+player_manager.AddValidModel( "Wasteland Samurai Armor", "models/player/keitho/wstlndsamurai.mdl" )

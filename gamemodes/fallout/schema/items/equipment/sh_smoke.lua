@@ -1,0 +1,27 @@
+ITEM.name = "Smoke Grenade"
+ITEM.model = "models/weapons/w_eq_flashbang.mdl"
+ITEM.desc = "A smoke grenade that can be used to cover an area in smoke."
+
+ITEM.functions.use = {
+	name = "Use",
+	tip = "useTip",
+	icon = "icon16/pencil.png",
+	onRun = function(item)
+		local client = item.player
+		local data = {}
+			data.start = client:GetShootPos()
+			data.endpos = data.start + (client:GetAimVector() * 96)
+			data.filter = client
+		local trace = util.TraceLine(data)
+
+		if (trace.HitPos) then
+			local ent = ents.Create("weapon_sh_smokegrenade")
+			ent:SetPos(trace.HitPos + trace.HitNormal * 10)
+			ent:Spawn()
+
+            hook.Run("PlayerSpawnedSENT", client, ent)
+		end;
+
+		return true
+	end,
+}

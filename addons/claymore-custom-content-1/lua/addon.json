@@ -1,0 +1,6 @@
+{
+"title" : "Claymore Custom Content 1",
+"type" : "model",
+"tags" : "roleplay",
+"ignore" : ["*.psd", "*.vcproj", "*.svn*"]
+}
